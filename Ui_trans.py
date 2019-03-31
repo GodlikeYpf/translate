@@ -57,7 +57,7 @@ class Ui_Form(object):
         self.horizontalLayout_2.addWidget(self.pushButton_2)
         self.retranslateUi(Form)
         self.pushButton_2.clicked.connect(Form.close)
-        self.pushButton.clicked.connect(Form.queryWeather)
+        self.pushButton.clicked.connect(Form.queryContent)
         QtCore.QMetaObject.connectSlotsByName(Form)
 
     def retranslateUi(self, Form):
