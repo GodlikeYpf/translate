@@ -10,8 +10,8 @@ def query_content(q):
     secretKey = 'BoLJPqcbnwXTGJJvy_Nc'
     httpClient = None
     myurl = 'http://api.fanyi.baidu.com/api/trans/vip/translate'
-    fromLang = 'zh'
-    toLang = 'en'
+    fromLang = 'auto'
+    toLang = 'auto'
     salt = random.randint(32768, 65536)
     sign = appid + q + str(salt) + secretKey
     m1 = hashlib.md5()
